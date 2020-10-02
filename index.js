@@ -2,7 +2,6 @@
 //browser at the localhost url it spits out to get the agent to report data.
 // this app is associated with v2 user Real Basic User and v1 Basic user.
 // Swap the license key on the newrelic.js file to go between the 2
-// account 2824228
 
 const express = require("express");
 require("newrelic");
