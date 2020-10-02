@@ -5,6 +5,9 @@
  * See lib/config/default.js in the agent distribution for a more complete
  * description of configuration variables and their potential values.
  */
+require("dotenv").config();
+const KEY = process.env.KEY;
+
 exports.config = {
   /**
    * Array of application names.
@@ -13,7 +16,7 @@ exports.config = {
   /**
    * Your New Relic license key.
    */
-  license_key: "a78fec12d83b91874ea3ea88893503973165NRAL",
+  license_key: KEY,
   // license_key: '',
   /**
    * This setting controls distributed tracing.
