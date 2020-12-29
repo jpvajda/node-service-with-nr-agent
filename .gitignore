@@ -1,5 +1,10 @@
 # Ds Store
 
+
+# New relic
+
+newrelic_agent.log
+
 .DS_Store
 
 # Logs
